@@ -1,2 +1,4 @@
-# CODESOFT
-Virtual Intership Task 
+# Suhasbegade
+this is my trial project
+Author - Suhas Begade
+Working on git
