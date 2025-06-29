@@ -1,4 +1,3 @@
 # Suhasbegade
-this is my trial project
-Author - Suhas Begade
-Working on git
+this is my task project for codesoft intership
+
