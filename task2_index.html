@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suhas Begade - Portfolio</title>
+    <link rel="stylesheet" href="task2_style.css">
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav-container">
+            <div class="nav-content">
+                <div class="logo">Suhas Begade</div>
+                
+                <div class="nav-links">
+                    <button onclick="scrollToSection('about')" class="nav-link">About</button>
+                    <button onclick="scrollToSection('skills')" class="nav-link">Skills</button>
+                    <button onclick="scrollToSection('projects')" class="nav-link">Projects</button>
+                    <button onclick="scrollToSection('contact')" class="nav-link">Contact</button>
+                </div>
+
+                <div class="social-icons">
+                    <a href="https://github.com" target="_blank" class="social-link">
+                        <i data-lucide="github"></i>
+                    </a>
+                    <a href="https://linkedin.com/in/suhas-begade" target="_blank" class="social-link">
+                        <i data-lucide="linkedin"></i>
+                    </a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <img src="pic.png" alt="Suhas Begade" class="profile-image">
+                <h1 class="hero-title">
+                    <span class="gradient-text">Suhas Begade</span>
+                </h1>
+                <p class="hero-subtitle">Electronics & Computer Engineering Student</p>
+                <p class="hero-description">Web Developer | Problem Solver | Tech Enthusiast</p>
+                <div class="hero-buttons">
+                                       <a href="resume .jpg" download="Suhas_Begade_Resume.png" class="btn btn-outline">
+    <i data-lucide="download"></i>
+    Download Resume
+</a>
+               </div>
+                <div class="hero-contact">
+                    <p>📍 Akola, India | 📱 +917620016764</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title gradient-text">About Me</h2>
+             <div class="about-grid">
+                <div class="about-text">
+                    <p class="about-paragraph">
+                        I'm a passionate Electronics & Computer Engineering student with a keen interest in web development 
+                        and technology innovation. Currently pursuing my Bachelor's degree at P.E.S Modern College of Engineering, 
+                        Pune, I'm expected to graduate in May 2027.
+                    </p>
+                    
+                    <p class="about-paragraph">
+                        My journey in technology has led me to gain hands-on experience through internships and personal projects. 
+                        I'm particularly interested in creating responsive web applications and solving complex programming challenges. 
+                        I believe in continuous learning and staying updated with the latest technological trends.
+                    </p>
+
+                    <div class="card">
+                        <h3 class="card-title">Professional Summary</h3>
+                        <p class="card-text">
+                            Aspiring web developer with experience in creating responsive web applications using modern technologies. 
+                            Skilled in HTML, CSS, JavaScript, and various programming languages. Strong background in problem-solving 
+                            and collaborative development practices.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="about-cards">
+                    <div class="card hover-glow">
+                        <div class="card-header">
+                            <i data-lucide="graduation-cap" class="card-icon"></i>
+                            <h3 class="card-title">Education</h3>
+                        </div>
+                        <div class="card-content">
+                            <p class="card-subtitle">Bachelor of Technology</p>
+                            <p class="card-text">Electronics & Computer Engineering</p>
+                            <p class="card-text">P.E.S Modern College of Engineering, Pune</p>
+                            <div class="card-date">
+                                <i data-lucide="calendar"></i>
+                                <span>Expected: May 2027</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card hover-glow">
+                        <div class="card-header">
+                            <i data-lucide="map-pin" class="card-icon"></i>
+                            <h3 class="card-title">Location</h3>
+                        </div>
+                        <p class="card-text">Akola, India 444107</p>
+                    </div>
+
+                    <div class="card hover-glow">
+                        <h3 class="card-title">Experience Highlights</h3>
+                        <ul class="experience-list">
+                            <li>• Web Development Intern at Codsoft (June 2025 - July 2025)</li>
+                            <li>• Developed responsive web applications using modern technologies</li>
+                            <li>• Collaborated with designers to enhance user experience</li>
+                            <li>• Maintained documentation of code changes and project updates</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title gradient-text">Skills & Expertise</h2>
+
+            <div class="skills-grid">
+                <div class="card hover-glow">
+                    <div class="card-header">
+                        <i data-lucide="code" class="card-icon"></i>
+                        <h3 class="card-title">Programming Languages</h3>
+                    </div>
+                    <div class="skills-tags">
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">C/C++</span>
+                        <span class="skill-tag">PHP</span>
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">HTML/CSS</span>
+                    </div>
+                </div>
+
+                <div class="card hover-glow">
+                    <div class="card-header">
+                        <i data-lucide="globe" class="card-icon"></i>
+                        <h3 class="card-title">Web Development</h3>
+                    </div>
+                    <div class="skills-tags">
+                        <span class="skill-tag">Responsive Design</span>
+                        <span class="skill-tag">JavaScript Proficiency</span>
+                        <span class="skill-tag">HTML/CSS</span>
+                        <span class="skill-tag">User Interface Design</span>
+                    </div>
+                </div>
+
+                <div class="card hover-glow">
+                    <div class="card-header">
+                        <i data-lucide="git-branch" class="card-icon"></i>
+                        <h3 class="card-title">Development Tools</h3>
+                    </div>
+                    <div class="skills-tags">
+                        <span class="skill-tag">GIT/GITHUB</span>
+                        <span class="skill-tag">MATLAB ONRAMP/SIMULINK</span>
+                        <span class="skill-tag">MULTISIM SIMULATION</span>
+                    </div>
+                </div>
+
+                <div class="card hover-glow">
+                    <div class="card-header">
+                        <i data-lucide="users" class="card-icon"></i>
+                        <h3 class="card-title">Soft Skills</h3>
+                    </div>
+                    <div class="skills-tags">
+                        <span class="skill-tag">Teamwork and Collaboration</span>
+                        <span class="skill-tag">Problem Solving</span>
+                        <span class="skill-tag">Documentation</span>
+                        <span class="skill-tag">Project Management</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="certifications-card">
+                <div class="card">
+                    <h3 class="section-subtitle">Certifications & Achievements</h3>
+                    <div class="certifications-grid">
+                        <div class="certification-item">
+                            <i data-lucide="settings" class="certification-icon"></i>
+                            <span>AGNIRVA Space Internship Program</span>
+                        </div>
+                        <div class="certification-item">
+                            <i data-lucide="settings" class="certification-icon"></i>
+                            <span>Learning Microsoft 365 Copilot and Business Chat</span>
+                        </div>
+                        <div class="certification-item">
+                            <i data-lucide="settings" class="certification-icon"></i>
+                            <span>YouTube Music Certification</span>
+                        </div>
+                        <div class="certification-item">
+                            <i data-lucide="settings" class="certification-icon"></i>
+                            <span>Copilot in Word: Create and Refine Documents with AI</span>
+                        </div>
+                        <div class="certification-item">
+                            <i data-lucide="settings" class="certification-icon"></i>
+                            <span>Microsoft 365 Copilot: The Art of Prompt Writing</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title gradient-text">Featured Projects</h2>
+
+            <div class="projects-grid">
+                                   <div class="project-content">
+                        <h3 class="project-title">Responsive Portfolio Website</h3>
+                        <p class="project-description">
+                            A modern, responsive personal portfolio website built with HTML, CSS, and JavaScript. Features smooth animations, mobile-first design, and optimized performance.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">Responsive Design</span>
+                        </div>
+                        <div class="project-buttons">
+                            <button class="btn btn-outline">
+                                <i data-lucide="file:///C:/Users/dhana/OneDrive/Desktop/begade/index.html"></i>
+                                Live Demo
+                            </button>
+                    </div>
+                </div>
+
+                    <div class="project-content">
+                        <h3 class="project-title">Web Development Internship Project</h3>
+                        <p class="project-description">
+                            Developed responsive web applications during internship at Codsoft. Collaborated with designers to enhance user experience and interface design.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">UI/UX</span>
+                        </div>
+                        <div class="project-buttons">
+                            <button class="btn btn-outline">
+                                <i data-lucide="external-link"></i>
+                                Live Demo
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+            <div class="projects-cta">
+                <p class="cta-text">
+                    Want to see more of my work? Check out my GitHub profile for additional projects and contributions.
+                </p>
+                <button class="btn btn-primary">
+                    <i data-lucide="github"></i>
+                    View All Projects on GitHub
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title gradient-text">Get In Touch</h2>
+
+            <div class="contact-grid">
+                <div class="card">
+                    <h3 class="card-title">Contact Information</h3>
+                    
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <i data-lucide="mail" class="contact-icon"></i>
+                            <div>
+                                <p class="contact-label">Email</p>
+                                <a href="mailto:suhasbegade21@gmail.com" class="contact-link">
+                                    suhasbegade21@gmail.com
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <i data-lucide="phone" class="contact-icon"></i>
+                            <div>
+                                <p class="contact-label">Phone</p>
+                                <a href="tel:+917620016764" class="contact-link">
+                                    +91 7620016764
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <i data-lucide="map-pin" class="contact-icon"></i>
+                            <div>
+                                <p class="contact-label">Location</p>
+                                <p class="contact-text">Akola, India 444107</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="social-section">
+                        <h4 class="social-title">Connect with me</h4>
+                        <div class="social-links">
+                            <a href="https://linkedin.com/in/suhas-begade" target="_blank" class="social-btn">
+                                <i data-lucide="linkedin"></i>
+                            </a>
+                            <a href="https://github.com" target="_blank" class="social-btn">
+                                <i data-lucide="github"></i>
+                            </a>
+                            <a href="mailto:suhasbegade21@gmail.com" class="social-btn">
+                                <i data-lucide="mail"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <h3 class="card-title">Let's Work Together</h3>
+                    
+                    <p class="card-text">
+                        I'm always interested in new opportunities, whether that's a challenging project, 
+                        an internship, or a full-time position. Feel free to reach out if you'd like to discuss 
+                        potential collaborations or if you have any questions about my work.
+                    </p>
+
+                    <div class="contact-buttons">
+                        <button class="btn btn-primary btn-full">
+                            <i data-lucide="mail"></i>
+                            Send me an Email
+                        </button>
+                        
+                       <a href="resume .jpg" download="Suhas_Begade_Resume.png" class="btn btn-outline">
+    <i data-lucide="download"></i>
+    Download Resume 
+</a>
+
+                    </div>
+
+                    <div class="response-time">
+                        <p>
+                            <strong>Response Time:</strong> I typically respond to emails within 24 hours. 
+                            Looking forward to hearing from you!
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-header">
+                    <h3 class="footer-title gradient-text">Suhas Begade</h3>
+                    <p class="footer-subtitle">
+                        Electronics & Computer Engineering Student | Web Developer
+                    </p>
+                </div>
+
+                <div class="footer-social">
+                    <a href="https://github.com" target="_blank" class="footer-link">
+                        <i data-lucide="github"></i>
+                    </a>
+                    <a href="https://linkedin.com/in/suhas-begade" target="_blank" class="footer-link">
+                        <i data-lucide="linkedin"></i>
+                    </a>
+                    <a href="mailto:suhasbegade21@gmail.com" class="footer-link">
+                        <i data-lucide="mail"></i>
+                    </a>
+                </div>
+
+                <div class="footer-bottom">
+                    <div class="footer-copyright">
+                        <p>© 2025 Suhas Begade. All rights reserved.</p>
+                        <div class="footer-made">
+                            <span>Made with</span>
+                            <i data-lucide="heart" class="heart-icon"></i>
+                            <span>and lots of ☕</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js3script.js"></script>
+</body>
+</html>
